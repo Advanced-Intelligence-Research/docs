@@ -1,0 +1,47 @@
+site_name: My site
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  font:
+    text: Montserrat Mono
+    code: Montserrat Mono
+  palette:
+    # Dark Mode 
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: dark purple
+      accent: deep purple
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: indigo
+      accent: indigo
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  
+
+
+
+
