@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Lets build something amazing but this time with documentation.
 
 ## Commands
 
@@ -11,9 +11,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
+    config.py    # This is a config file.
+    memory/
+        shortterm.py  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
 

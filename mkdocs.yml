@@ -1,5 +1,5 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
+site_name: Advanced Intelligence Research
+site_url: https://docs.advancedintelligenceresearch.com
 theme:
   name: material
   font:
@@ -11,14 +11,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Dark Mode
-      primary: dark purple
+      primary: black
       accent: deep purple
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-sunny
         name: Light Mode
-      primary: indigo
+      primary: black
       accent: indigo
   features:
     - content.code.copy
